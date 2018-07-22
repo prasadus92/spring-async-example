@@ -46,7 +46,7 @@ To run the tests, use:
     
 ## ToDo
 
-* Make the ThreadPoolExecutor in AsyncConfig configurable from Spring Application properties or from environment variables.
+* Make the `ThreadPoolTaskExecutor` in `AsyncConfig` configurable from Spring Application properties or from environment variables.
 * Improve the test coverage.
 * Integration Tests using `SpringBootTest` are expensive as it results in loading the entire Application Context, add more tests using `WebMvcTest`.
 * Initially tried with Spring WebFlux (with Reactor Core), but it seemed like an overkill for this task. But if the requirements are changed to have User's posts as a stream, better to implement this using WebFlux.
