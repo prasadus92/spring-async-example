@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>user-data-app</name>
-    <message>App for fetching user data asynchronously from JsonPlaceholder dummy APIs.</message>
+    <description>App for fetching user data asynchronously from JsonPlaceholder dummy APIs.</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
